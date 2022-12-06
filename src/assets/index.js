@@ -1,1 +1,7 @@
 export { default as logo }  from './images/google.png'
+export { default as blackAdam }  from './images/black.jpg'
+export { default as savage}  from './images/savage.jpg'
+export { default as christmas}  from './images/christmas.jpg'
+export { default as woman}  from './images/woman.jpg'
+export { default as harbinger}  from './images/harbinger.jpg'
+export { default as eternal}  from './images/eternal.jpg'

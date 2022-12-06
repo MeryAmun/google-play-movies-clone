@@ -4,18 +4,18 @@ const MoviesCard = ({id,title, image,rating, icon, oldPrice,price}) => {
   return (
 
     // ========THIS IS THE TOP MOVIES CARD, IT RECEIVES  FIVE DEFINED PROPERTIES===================
-    <div class="card" style={{width: "18rem"}} key={id}>
-    <img src={image} class="card-img-top" alt="Movies"/>
-    <div class="card-body">
-      <span class="card-text">{title}</span>
+      <div className="card" style={{width: "18rem"}} key={id}>
+    <img src={image} className="card-img-top" alt="Movies"/>
+    <div className="card-body">
+      <span className="card-text">{title}</span>
     </div>
-    <div class="card-body">
-      <span class="card-text">{rating}</span>
-      <span class="card-text">{icon}</span>
-      <span class="card-text text-decoration-line-through">{oldPrice}</span>
-      <span class="card-text">{price}</span>
+    <div className="card-body">
+      <span className="card-text">{rating}</span>
+      <span className="card-text">{icon}</span>
+      <span className="card-text text-decoration-line-through">{oldPrice}</span>
+      <span className="card-text">{price}</span>
     </div>
-     </div>
+    </div>
   )
 }
 
