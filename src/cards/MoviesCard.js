@@ -1,10 +1,10 @@
 import React from 'react'
 
-const MoviesCard = ({title, image,rating, icon, oldPrice,price}) => {
+const MoviesCard = ({id,title, image,rating, icon, oldPrice,price}) => {
   return (
 
     // ========THIS IS THE TOP MOVIES CARD, IT RECEIVES  FIVE DEFINED PROPERTIES===================
-    <div class="card" style={{width: "18rem"}}>
+    <div class="card" style={{width: "18rem"}} key={id}>
     <img src={image} class="card-img-top" alt="Movies"/>
     <div class="card-body">
       <span class="card-text">{title}</span>
