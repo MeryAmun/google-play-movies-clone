@@ -28,5 +28,6 @@ export { default as good}  from './images/good.jpg'
 export { default as engaged}  from './images/engaged.jpg'
 export { default as triangle}  from './images/triangle.jpg'
 export { default as dirt}  from './images/dirt.jpg'
+export { default as play}  from './images/play.jpg'
 
 

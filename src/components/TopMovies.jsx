@@ -67,7 +67,8 @@ const TopMovies = () => {
           {
           movies.map((movie) => (
             <SwiperSlide key={movie.id}>
-          <TopMoviesCard
+         <div className="movieItem">
+         <TopMoviesCard
             id={movie.id}
             image={movie.image}
             title={movie.title}
@@ -77,6 +78,7 @@ const TopMovies = () => {
            category={movie.category}
             price={movie.price}
           />
+         </div>
       </SwiperSlide>
           ))
           }

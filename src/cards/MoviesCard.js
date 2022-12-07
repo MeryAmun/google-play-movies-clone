@@ -1,4 +1,5 @@
 import React from "react";
+import { VscPlayCircle } from 'react-icons/vsc'
 
 const MoviesCard = ({ id, title, image, rating, icon, oldPrice, price }) => {
   return (
@@ -14,6 +15,7 @@ const MoviesCard = ({ id, title, image, rating, icon, oldPrice, price }) => {
         <span className="m-1 text-decoration-line-through">{oldPrice}</span>
         <span className="m-1">{price}</span>
       </div>
+      <VscPlayCircle className='playIcon1'/>
     </div>
   );
 };

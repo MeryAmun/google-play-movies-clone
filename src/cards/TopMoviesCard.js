@@ -1,4 +1,5 @@
 import React from 'react'
+import { BsPlayCircle } from 'react-icons/bs'
 const TopMoviesCard = ({id,title, image,rating,pG,category, icon,price}) => {
   return (
 
@@ -15,7 +16,7 @@ const TopMoviesCard = ({id,title, image,rating,pG,category, icon,price}) => {
       <span class="m-1">{price}</span>
     </div>
     </div>
-   
+    <BsPlayCircle className='playIcon' stroke="currentColor" strokeWidth=".3"/>
      </div>
   
   )

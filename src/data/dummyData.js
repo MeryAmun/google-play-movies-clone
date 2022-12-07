@@ -117,58 +117,58 @@ export const mostPopularMoviesData = [
 
 export const topMoviesData = [
     {
-        id:1, title:'Nope',image:nope, rating:'4.2',icon:<ImStarFull/>,pG:'R',category:'Sci-fi & Fantasy', price: '$5.99'
+        id:1,number:1, title:'Nope',image:nope, rating:'4.2',icon:<ImStarFull/>,pG:'R',category:'Sci-fi & Fantasy', price: '$5.99'
     },
     {
-        id:2, title:'The Woman King',image:woman, rating:'4.1',icon:<ImStarFull/>,pG:'PG-13',category:'Drama', price: '$19.99'
+        id:2,number:2, title:'The Woman King',image:woman, rating:'4.1',icon:<ImStarFull/>,pG:'PG-13',category:'Drama', price: '$19.99'
     },
     {
-        id:3, title:'Elf',image:harbinger, rating:'4.4',icon:<ImStarFull/>, pG:'PG-13',category:'Comedy', price: '$7.99'
+        id:3,number:3, title:'Elf',image:harbinger, rating:'4.4',icon:<ImStarFull/>, pG:'PG-13',category:'Comedy', price: '$7.99'
     },
     {
-        id:4, title:"Illumination Presents Dr  Seuss's: The Grinch",image:grinch, rating:'4.2',icon:<ImStarFull/>,pG:'PG-13',category:'Action & Adventure', price: '$3.99'
+        id:4,number:4, title:"Illumination Presents Dr  Seuss's: The Grinch",image:grinch, rating:'4.2',icon:<ImStarFull/>,pG:'PG-13',category:'Action & Adventure', price: '$3.99'
     },
     {
-        id:5, title:"Knives Out",image:knives, rating:'4.4',icon:<ImStarFull/>, pG:'PG-13',category:'Thriller', price: '$3.99'
+        id:5,number:5, title:"Knives Out",image:knives, rating:'4.4',icon:<ImStarFull/>, pG:'PG-13',category:'Thriller', price: '$3.99'
     },
     {
-        id:6, title:"Jurassic World",image:jurassic, rating:'3.8',icon:<ImStarFull/>, pG:'PG-13',category:'Action & Adventure', price: '$5.99'
+        id:6,number:6, title:"Jurassic World",image:jurassic, rating:'3.8',icon:<ImStarFull/>, pG:'PG-13',category:'Action & Adventure', price: '$5.99'
     },
     {
-        id:7, title:"National Lampoon's Christmas Vacation",image:lampoon, rating:'4.8', category:'Comedy',icon:<ImStarFull/>, price: '$3.99'
+        id:7,number:7, title:"National Lampoon's Christmas Vacation",image:lampoon, rating:'4.8', category:'Comedy',icon:<ImStarFull/>, price: '$3.99'
     },
     {
-        id:8, title:'Savage Salvation',image:savage, rating:'3.3',icon:<ImStarFull/>, category:'Action & Adventure', price: '$6.99'
+        id:8,number:8, title:'Savage Salvation',image:savage, rating:'3.3',icon:<ImStarFull/>, category:'Action & Adventure', price: '$6.99'
     },
     {
-        id:9, title:'Terrifier 2',image:terrify, rating:'4.1',icon:<ImStarFull/>, category:'Horror', price: '$7.99'
+        id:9,number:9, title:'Terrifier 2',image:terrify, rating:'4.1',icon:<ImStarFull/>, category:'Horror', price: '$7.99'
     },
     {
-        id:10, title:'Nope',image:nope, rating:'4.2',icon:<ImStarFull/>,pG:'R',category:'Sci-fi & Fantasy', price: '$5.99'
+        id:10,number:10, title:'Nope',image:nope, rating:'4.2',icon:<ImStarFull/>,pG:'R',category:'Sci-fi & Fantasy', price: '$5.99'
     },
     {
-        id:11, title:'The Woman King',image:woman, rating:'4.1',icon:<ImStarFull/>,pG:'PG-13',category:'Drama', price: '$19.99'
+        id:11,number:11, title:'The Woman King',image:woman, rating:'4.1',icon:<ImStarFull/>,pG:'PG-13',category:'Drama', price: '$19.99'
     },
     {
-        id:12, title:'Elf',image:harbinger, rating:'4.4',icon:<ImStarFull/>, pG:'PG-13',category:'Comedy', price: '$7.99'
+        id:12,number:12, title:'Elf',image:harbinger, rating:'4.4',icon:<ImStarFull/>, pG:'PG-13',category:'Comedy', price: '$7.99'
     },
     {
-        id:13, title:"Illumination Presents Dr  Seuss's: The Grinch",image:grinch, rating:'4.2',icon:<ImStarFull/>,pG:'PG-13',category:'Action & Adventure', price: '$3.99'
+        id:13,number:13, title:"Illumination Presents Dr  Seuss's: The Grinch",image:grinch, rating:'4.2',icon:<ImStarFull/>,pG:'PG-13',category:'Action & Adventure', price: '$3.99'
     },
     {
-        id:14, title:"Knives Out",image:knives, rating:'4.4',icon:<ImStarFull/>, pG:'PG-13',category:'Thriller', price: '$3.99'
+        id:14,number:14, title:"Knives Out",image:knives, rating:'4.4',icon:<ImStarFull/>, pG:'PG-13',category:'Thriller', price: '$3.99'
     },
     {
-        id:15, title:"Jurassic World",image:jurassic, rating:'3.8',icon:<ImStarFull/>, pG:'PG-13',category:'Action & Adventure', price: '$5.99'
+        id:15,number:15, title:"Jurassic World",image:jurassic, rating:'3.8',icon:<ImStarFull/>, pG:'PG-13',category:'Action & Adventure', price: '$5.99'
     },
     {
-        id:16, title:"National Lampoon's Christmas Vacation",image:lampoon, rating:'4.8', category:'Comedy',icon:<ImStarFull/>, price: '$3.99'
+        id:16,number:16, title:"National Lampoon's Christmas Vacation",image:lampoon, rating:'4.8', category:'Comedy',icon:<ImStarFull/>, price: '$3.99'
     },
     {
-        id:17, title:'Savage Salvation',image:savage, rating:'3.3',icon:<ImStarFull/>, category:'Action & Adventure', price: '$6.99'
+        id:17,number:17, title:'Savage Salvation',image:savage, rating:'3.3',icon:<ImStarFull/>, category:'Action & Adventure', price: '$6.99'
     },
     {
-        id:18, title:'Terrifier 2',image:terrify, rating:'4.1',icon:<ImStarFull/>, category:'Horror', price: '$7.99'
+        id:18,number:18, title:'Terrifier 2',image:terrify, rating:'4.1',icon:<ImStarFull/>, category:'Horror', price: '$7.99'
     },
 ]
 
