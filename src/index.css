@@ -232,9 +232,7 @@ body {
 
 
 /* =====================TOP MOVIES======================== */
-.topContainer {
-  height: 600PX;
-}
+
 
 .playIcon1{
   position: absolute;
@@ -255,7 +253,31 @@ body {
   color: #fff;
   top: 60px;
   font-size: 3rem;
-  right: 250px;
+  right: 150px;
   display: none;
+
+}
+
+
+/* ========================MEDIA QUERIES ====================== */
+
+@media (min-width: 576px) { 
+  .moviesContainer{
+/* flex-direction: column; */
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+
+}
+
+/* /Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
 
 }

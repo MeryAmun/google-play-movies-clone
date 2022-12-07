@@ -18,9 +18,9 @@ const TopMovies = () => {
 
   return (
     // ================HERE, WE ARE IMPORTING THE MOVIES FROM DUMMY DATA FILE INSIDE THE DATA FOLDER, THEN WE PARSE IT INTO THE MOVIE CARD INSIDE THE CARDS FOLDER
-    <div className="w-100 d-flex flex-column justify-content-start m-4 topContainer ">
+    <div className="w-100 d-flex flex-column justify-content-start m-4">
       <div className=" d-flex flex-column justify-content-start m-3">
-        <h2 className="text-dark font-weight-bold">Top Charts</h2>
+        <h2 className="text-dark font-weight-bold m-3">Top Charts</h2>
         <Nav.Item>
           <Link
             to="#"
@@ -31,7 +31,7 @@ const TopMovies = () => {
           </Link>
         </Nav.Item>
       </div>
-      <div className="moviesContainer  d-block align-items-center overflow-hidden  border h-100">
+      <div className="moviesContainer d-flex align-items-center overflow-hidden  border h-100">
         <Swiper
           id="swiper"
           virtual
@@ -45,9 +45,10 @@ const TopMovies = () => {
         >
           {movies.map((movie) => (
             <SwiperSlide key={movie.id}>
-              <div className="movieItem">
+              <div className="movieItem" style={{width: '350px'}}>
                 <TopMoviesCard
                   id={movie.id}
+                  number={movie.number}
                   image={movie.image}
                   title={movie.title}
                   rating={movie.rating}
