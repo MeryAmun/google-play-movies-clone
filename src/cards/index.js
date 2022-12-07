@@ -1,2 +1,2 @@
 export {default  as MoviesCard} from  './MoviesCard'
-export {default  as TopChartCard} from  './TopChartCard'
+export {default  as TopMoviesCard} from  './TopMoviesCard'

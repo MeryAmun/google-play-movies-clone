@@ -17,5 +17,8 @@ export { default as grinch}  from './images/grinch.jpg'
 export { default as smile}  from './images/smile.jpg'
 export { default as ticket}  from './images/ticket.jpg'
 export { default as nope}  from './images/nope.jpg'
+export { default as knives}  from './images/knives.jpg'
+export { default as jurassic}  from './images/jurassic.jpg'
+export { default as terrify}  from './images/terrify.jpg'
 
 

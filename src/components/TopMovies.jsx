@@ -1,6 +1,8 @@
-import React, { useState, useRef } from "react";
-import { MoviesCard } from "../cards";
-import { mostPopularMoviesData } from "../data/dummyData";
+import React, { useState } from "react";
+import { Nav } from "react-bootstrap";
+import { Link } from "react-router-dom";
+import { MoviesCard, TopMoviesCard } from "../cards";
+import { topMoviesData } from "../data/dummyData";
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, {
   Navigation,
@@ -11,8 +13,8 @@ import SwiperCore, {
 import "swiper/swiper-bundle.css";
 SwiperCore.use([Navigation, Pagination, Autoplay, Virtual]);
 
-const MostPopularMovies = () => {
-  const [movies] = useState(mostPopularMoviesData);
+const TopMovies = () => {
+  const [movies] = useState(topMoviesData);
 
   const slides = [];
 
@@ -20,13 +22,14 @@ const MostPopularMovies = () => {
     slides.push(
       <SwiperSlide key={movies[i].id}>
         <div className="movieItem">
-          <MoviesCard
+          <TopMoviesCard
             id={movies[i].id}
             image={movies[i].image}
             title={movies[i].title}
             rating={movies[i].rating}
             icon={movies[i].icon}
-            oldPrice={movies[i].oldPrice}
+           pG={movies[i].pG}
+           category={movies[i].category}
             price={movies[i].price}
           />
         </div>
@@ -38,10 +41,14 @@ const MostPopularMovies = () => {
     // ================HERE, WE ARE IMPORTING THE MOVIES FROM DUMMY DATA FILE INSIDE THE DATA FOLDER, THEN WE PARSE IT INTO THE MOVIE CARD INSIDE THE CARDS FOLDER
     <div className="w-100 d-flex flex-column justify-content-start m-4">
       <div className=" d-flex flex-column justify-content-start">
-        <h2 className="text-dark font-weight-bold">Most Popular Movies</h2>
-        <p className="text-secondary font-weight-normal">
-          Top sellers & hot flicks
-        </p>
+        <Nav.Item>
+          <Link
+            to="#"
+            className="border px-3 py-1 m-2 rounded-pill text-decoration-none text-secondary font-weight-normal"
+          >
+            Movies
+          </Link>
+        </Nav.Item>
       </div>
       <div className="moviesContainer d-flex align-items-center overflow-hidden">
         <Swiper
@@ -64,4 +71,4 @@ const MostPopularMovies = () => {
   );
 };
 
-export default MostPopularMovies;
+export default TopMovies;
