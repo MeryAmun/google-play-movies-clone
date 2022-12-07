@@ -29,5 +29,12 @@ export { default as engaged}  from './images/engaged.jpg'
 export { default as triangle}  from './images/triangle.jpg'
 export { default as dirt}  from './images/dirt.jpg'
 export { default as play}  from './images/play.jpg'
+export { default as frozen}  from './images/frozen.jpg'
+export { default as coco}  from './images/coco.jpg'
+export { default as narnia}  from './images/narnia.jpg'
+export { default as male}  from './images/male.jpg'
+export { default as carol}  from './images/carol.jpg'
+export { default as before}  from './images/before.jpg'
+
 
 

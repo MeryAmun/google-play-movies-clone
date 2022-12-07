@@ -1,8 +1,15 @@
 import React from 'react'
+import { LionsGateMovies, TwentiethCenturyMovies, DisneyMovies,Hbo } from '../components/studioComponents'
+
 
 const Studios = () => {
   return (
-    <div>Studio</div>
+    <div>
+      <DisneyMovies/>
+      <TwentiethCenturyMovies/>
+      <Hbo/>
+      <LionsGateMovies/>
+    </div>
   )
 }
 

@@ -66,7 +66,7 @@ const MoviesScreen = () => {
       </Nav>
 
       <div className="">
-        {activeTab === "Movies" ? <Movies /> : <Studios />}
+        {activeTab === "Movies" ?  <Movies /> : activeTab === "Studios" ?   <Studios /> : null}
       </div>
     </div>
   );

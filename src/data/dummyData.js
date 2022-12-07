@@ -1,5 +1,5 @@
 import { ImStarFull } from 'react-icons/im';
-import { blackAdam, christmas, dirt, elf, engaged, eternal, evil, good, grinch, harbinger, high, holidays, jurassic, kiss, knives, lampoon, night, nope, polar, savage, school, smile, story, terrify, ticket, top, train, triangle, woman } from '../assets';
+import { before, blackAdam, carol, christmas, coco, dirt, elf, engaged, eternal, evil, frozen, good, grinch, harbinger, high, holidays, jurassic, kiss, knives, lampoon,  male,  narnia, night, nope, polar, savage, school, smile, story, terrify, ticket, top, train, triangle, woman } from '../assets';
 
 // ============================TOP NEW RELEASE MOVIES========================================
 
@@ -251,3 +251,50 @@ export const newToRentData = [
    
 
 ]
+
+
+
+
+
+// ============================STUDIO     MOVIES========================================
+
+
+
+
+// ============================DISNEY     MOVIES========================================
+export const disneyMovies = [
+    {
+        id:1, title:"The Chronicles of Narnia: The Lion, The Witch, And the...", image:narnia, rating:'4.5',icon:<ImStarFull/>, price:'$3.99'
+    },
+    {
+        id:2, title:"The Nightmare Before Christmas", image:before, rating:'4.7',icon:<ImStarFull/>, price:'$3.99'
+    },
+    {
+        id:3, title:"Frozen", image:frozen, rating:'4.3',icon:<ImStarFull/>, price:'$3.99'
+    },
+    {
+        id:4, title:"Coco", image:coco, rating:'4.5',icon:<ImStarFull/>, price:'$3.99'
+    },
+    {
+        id:5, title:"Maleficent", image:male, rating:'4.6',icon:<ImStarFull/>, price:'$3.99'
+    },
+    {
+        id:6, title:"Disney's A Christmas Carol", image:carol, rating:'4.4',icon:<ImStarFull/>, price:'$3.99'
+    },
+    {
+        id:7, title:"Frozen", image:frozen, rating:'4.3',icon:<ImStarFull/>, price:'$3.99'
+    },
+    {
+        id:8, title:"Maleficent", image:male, rating:'4.6',icon:<ImStarFull/>, price:'$3.99'
+    },
+    {
+        id:9, title:"Coco", image:coco, rating:'4.5',icon:<ImStarFull/>, price:'$3.99'
+    },
+    
+    {
+        id:11, title:"Disney's A Christmas Carol", image:carol, rating:'4.5',icon:<ImStarFull/>, price:'$3.99'
+    },
+]
+// ============================TWENTIETH CENTURY     MOVIES========================================
+// ============================ HBO   MOVIES========================================
+// ============================ lIONS GATE   MOVIES========================================
