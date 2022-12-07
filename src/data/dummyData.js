@@ -1,5 +1,8 @@
 import { ImStarFull } from 'react-icons/im';
-import { blackAdam, christmas, elf, engaged, eternal, evil, good, grinch, harbinger, high, holidays, jurassic, kiss, knives, lampoon, night, nope, polar, savage, school, smile, story, terrify, ticket, top, train, woman } from '../assets';
+import { blackAdam, christmas, dirt, elf, engaged, eternal, evil, good, grinch, harbinger, high, holidays, jurassic, kiss, knives, lampoon, night, nope, polar, savage, school, smile, story, terrify, ticket, top, train, triangle, woman } from '../assets';
+
+// ============================TOP NEW RELEASE MOVIES========================================
+
 
 export const topNewReleasesData = [
     {
@@ -33,6 +36,9 @@ export const topNewReleasesData = [
         id:10, title:'Black Adam',image:blackAdam, rating:'4.3',icon:<ImStarFull/>, price: '$19.99'
     },
 ]
+
+// ============================PURCHASE DEALS MOVIES========================================
+
 export const purchaseDealsData = [
   
     {
@@ -70,6 +76,8 @@ export const purchaseDealsData = [
 
 ]
 
+// ============================ MOST POPULAR MOVIES========================================
+
 export const mostPopularMoviesData = [
     {
         id:1, title:'Top Gun: Maverick',image:top, rating:'4.8',icon:<ImStarFull/>, price: '$4.99'
@@ -102,6 +110,10 @@ export const mostPopularMoviesData = [
         id:10, title:'Top Gun: Maverick',image:top, rating:'4.8',icon:<ImStarFull/>, price: '$4.99'
     },
 ]
+
+
+// ============================TOP MOVIES========================================
+
 
 export const topMoviesData = [
     {
@@ -160,7 +172,7 @@ export const topMoviesData = [
     },
 ]
 
-
+// ============================OFFERS ON RENTAL MOVIES========================================
 export const offersOnRentalsData = [
   
     {
@@ -195,6 +207,46 @@ export const offersOnRentalsData = [
     
     {
         id:10, title:'On The Way To School',rating:'4.7',image:school, oldPrice:'$2.99', price: '$7.99'
+    },
+   
+
+]
+
+// ============================NEW TO RENT MOVIES========================================
+export const newToRentData = [
+  
+    {
+        id:1, title:'Black Adam',image:blackAdam, rating:'4.3',icon:<ImStarFull/>, price: '$19.99'
+    },
+    {
+        id:2, title:'Smile',image:smile, rating:'3.8',icon:<ImStarFull/>, price: '$4.99'
+    },
+    {
+        id:3, title:'Savage Salvation',image:savage, rating:'3.3',icon:<ImStarFull/>, price: '$6.99'
+    },
+   
+    {
+        id:4, title:'Triangles Of Sadness',rating:'3.7',image:triangle,  price: '$6.99'
+    },
+    {
+        id:5, title:'Christmas With The CampBells',image:christmas, rating:'5.0',icon:<ImStarFull/>, price: '$3.99'
+    },
+    {
+        id:6, title:'Something In The Dirt',image:dirt, rating:'4.8',icon:<ImStarFull/>,  price: '$6.99'
+    },
+    {
+        id:7, title:'Deliver Us From Evil',image:evil, rating:'4.2',icon:<ImStarFull/>, price: '$0.99'
+    },
+    {
+        id:8, title:'Merry Kissmas',image:kiss, rating:'4.5',icon:<ImStarFull/>,  price: '$0.99'
+    },
+    
+    {
+        id:9, title:'Merry Kissmas',image:kiss, rating:'4.5',icon:<ImStarFull/>,  price: '$0.99'
+    },
+    
+    {
+        id:10, title:'On The Way To School',rating:'4.7',image:school,  price: '$7.99'
     },
    
 

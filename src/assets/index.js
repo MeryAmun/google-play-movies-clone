@@ -26,5 +26,7 @@ export { default as school}  from './images/school.jpg'
 export { default as kiss}  from './images/kiss.jpg'
 export { default as good}  from './images/good.jpg'
 export { default as engaged}  from './images/engaged.jpg'
+export { default as triangle}  from './images/triangle.jpg'
+export { default as dirt}  from './images/dirt.jpg'
 
 

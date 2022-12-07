@@ -21,7 +21,6 @@ const TopMovies = () => {
   for (let i = 0; i < movies.length; i++) {
     slides.push(
       <SwiperSlide key={movies[i].id}>
-        <div className="w-100">
           <TopMoviesCard
             id={movies[i].id}
             image={movies[i].image}
@@ -32,7 +31,6 @@ const TopMovies = () => {
            category={movies[i].category}
             price={movies[i].price}
           />
-        </div>
       </SwiperSlide>
     );
   }
@@ -52,7 +50,7 @@ const TopMovies = () => {
           </Link>
         </Nav.Item>
       </div>
-      <div className="d-flex align-items-center overflow-hidden  border h-100">
+      <div className="d-block align-items-center overflow-hidden  border h-100">
         <Swiper
           id="swiper"
           virtual
@@ -66,7 +64,22 @@ const TopMovies = () => {
           navigation
           pagination
         >
-          {slides}
+          {
+          movies.map((movie) => (
+            <SwiperSlide key={movie.id}>
+          <TopMoviesCard
+            id={movie.id}
+            image={movie.image}
+            title={movie.title}
+            rating={movie.rating}
+            icon={movie.icon}
+           pG={movie.pG}
+           category={movie.category}
+            price={movie.price}
+          />
+      </SwiperSlide>
+          ))
+          }
         </Swiper>
       </div>
     </div>
