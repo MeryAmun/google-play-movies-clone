@@ -35,6 +35,12 @@ export { default as narnia}  from './images/narnia.jpg'
 export { default as male}  from './images/male.jpg'
 export { default as carol}  from './images/carol.jpg'
 export { default as before}  from './images/before.jpg'
+export { default as hard}  from './images/hard.jpg'
+export { default as avatar}  from './images/avatar.jpg'
+export { default as maze}  from './images/maze.jpg'
+export { default as alone}  from './images/alone.jpg'
+export { default as jingle}  from './images/jingle.jpg'
+export { default as revenant}  from './images/revenant.jpg'
 
 
 

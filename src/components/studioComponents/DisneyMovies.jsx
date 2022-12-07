@@ -14,8 +14,6 @@ SwiperCore.use([Navigation, Pagination, Autoplay, Virtual]);
 const DisneyMovies = () => {
   const [movies] = useState(disneyMovies);
 
-  
-
   return (
     // ================HERE, WE ARE IMPORTING THE MOVIES FROM DUMMY DATA FILE INSIDE THE DATA FOLDER, THEN WE PARSE IT INTO THE MOVIE CARD INSIDE THE CARDS FOLDER
     <div className="w-100 d-flex flex-column justify-content-start m-4">
@@ -28,27 +26,24 @@ const DisneyMovies = () => {
           virtual
           slidesPerView={6}
           spaceBetween={5}
-          onReachEnd={() => {
-           
-          }}
+          onReachEnd={() => {}}
           navigation
           pagination
         >
-          {
-          movies.map((movie) => (
+          {movies.map((movie) => (
             <SwiperSlide key={movie.id}>
-            <div className="movieItem">
-              <MoviesCard
-                id={movie.id}
-                image={movie.image}
-                title={movie.title}
-                rating={movie.rating}
-                icon={movie.icon}
-                oldPrice={movie.oldPrice}
-                price={movie.price}
-              />
-            </div>
-          </SwiperSlide>
+              <div className="movieItem">
+                <MoviesCard
+                  id={movie.id}
+                  image={movie.image}
+                  title={movie.title}
+                  rating={movie.rating}
+                  icon={movie.icon}
+                  oldPrice={movie.oldPrice}
+                  price={movie.price}
+                />
+              </div>
+            </SwiperSlide>
           ))}
         </Swiper>
       </div>

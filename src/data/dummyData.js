@@ -1,5 +1,5 @@
 import { ImStarFull } from 'react-icons/im';
-import { before, blackAdam, carol, christmas, coco, dirt, elf, engaged, eternal, evil, frozen, good, grinch, harbinger, high, holidays, jurassic, kiss, knives, lampoon,  male,  narnia, night, nope, polar, savage, school, smile, story, terrify, ticket, top, train, triangle, woman } from '../assets';
+import { alone, avatar, before, blackAdam, carol, christmas, coco, dirt, elf, engaged, eternal, evil, frozen, good, grinch, harbinger, hard, high, holidays, jingle, jurassic, kiss, knives, lampoon,  male,  maze,  narnia, night, nope, polar, revenant, savage, school, smile, story, terrify, ticket, top, train, triangle, woman } from '../assets';
 
 // ============================TOP NEW RELEASE MOVIES========================================
 
@@ -292,9 +292,44 @@ export const disneyMovies = [
     },
     
     {
-        id:11, title:"Disney's A Christmas Carol", image:carol, rating:'4.5',icon:<ImStarFull/>, price:'$3.99'
+        id:10, title:"Disney's A Christmas Carol", image:carol, rating:'4.5',icon:<ImStarFull/>, price:'$3.99'
     },
 ]
 // ============================TWENTIETH CENTURY     MOVIES========================================
+
+
+export const twentiethCenturyMovies = [
+    {
+        id:1, title:"Die Hard", image:hard, rating:'4.7',icon:<ImStarFull/>, price:'$3.99'
+    },
+    {
+        id:2, title:"The Revenant", image:revenant, rating:'4.4',icon:<ImStarFull/>, price:'$3.99'
+    },
+    {
+        id:3, title:"Home Alone", image:alone, rating:'4.7',icon:<ImStarFull/>, price:'$3.99'
+    },
+    {
+        id:4, title:"Avatar", image:avatar, rating:'4.6',icon:<ImStarFull/>, price:'$3.99'
+    },
+    {
+        id:5, title:"Maze Runner: scorch Trials", image:maze, rating:'4.1',icon:<ImStarFull/>, price:'$3.99'
+    },
+    {
+        id:6, title:"Jingle All The Way", image:jingle, rating:'4.3',icon:<ImStarFull/>, price:'$3.99'
+    },
+    {
+        id:7, title:"Avatar", image:avatar, rating:'4.6',icon:<ImStarFull/>, price:'$3.99'
+    },
+    {
+        id:8, title:"Home Alone", image:alone, rating:'4.7',icon:<ImStarFull/>, price:'$3.99'
+    },
+    {
+        id:9, title:"Coco", image:coco, rating:'4.5',icon:<ImStarFull/>, price:'$3.99'
+    },
+    
+    {
+        id:10, title:"Die Hard", image:hard, rating:'4.7',icon:<ImStarFull/>, price:'$3.99'
+    },
+]
 // ============================ HBO   MOVIES========================================
 // ============================ lIONS GATE   MOVIES========================================

@@ -14,26 +14,6 @@ SwiperCore.use([Navigation, Pagination, Autoplay, Virtual]);
 const NewToRent = () => {
   const [movies] = useState(newToRentData);
 
-  const slides = [];
-
-  for (let i = 0; i < movies.length; i++) {
-    slides.push(
-      <SwiperSlide key={movies[i].id}>
-        <div className="movieItem">
-          <MoviesCard
-            id={movies[i].id}
-            image={movies[i].image}
-            title={movies[i].title}
-            rating={movies[i].rating}
-            icon={movies[i].icon}
-            oldPrice={movies[i].oldPrice}
-            price={movies[i].price}
-          />
-        </div>
-      </SwiperSlide>
-    );
-  }
-
   return (
     // ================HERE, WE ARE IMPORTING THE MOVIES FROM DUMMY DATA FILE INSIDE THE DATA FOLDER, THEN WE PARSE IT INTO THE MOVIE CARD INSIDE THE CARDS FOLDER
     <div className="w-100 d-flex flex-column justify-content-start m-4">
@@ -51,13 +31,25 @@ const NewToRent = () => {
           spaceBetween={5}
           onReachEnd={() => {
             console.log("reach end");
-            const tmp = slides.unshift();
-            slides.push(tmp);
           }}
           navigation
           pagination
         >
-          {slides}
+          {movies.map((movie) => (
+            <SwiperSlide key={movie.id}>
+              <div className="movieItem">
+                <MoviesCard
+                  id={movie.id}
+                  image={movie.image}
+                  title={movie.title}
+                  rating={movie.rating}
+                  icon={movie.icon}
+                  oldPrice={movie.oldPrice}
+                  price={movie.price}
+                />
+              </div>
+            </SwiperSlide>
+          ))}
         </Swiper>
       </div>
     </div>

@@ -16,25 +16,6 @@ SwiperCore.use([Navigation, Pagination, Autoplay, Virtual]);
 const TopMovies = () => {
   const [movies] = useState(topMoviesData);
 
-  const slides = [];
-
-  for (let i = 0; i < movies.length; i++) {
-    slides.push(
-      <SwiperSlide key={movies[i].id}>
-          <TopMoviesCard
-            id={movies[i].id}
-            image={movies[i].image}
-            title={movies[i].title}
-            rating={movies[i].rating}
-            icon={movies[i].icon}
-           pG={movies[i].pG}
-           category={movies[i].category}
-            price={movies[i].price}
-          />
-      </SwiperSlide>
-    );
-  }
-
   return (
     // ================HERE, WE ARE IMPORTING THE MOVIES FROM DUMMY DATA FILE INSIDE THE DATA FOLDER, THEN WE PARSE IT INTO THE MOVIE CARD INSIDE THE CARDS FOLDER
     <div className="w-100 d-flex flex-column justify-content-start m-4 topContainer ">
@@ -44,9 +25,9 @@ const TopMovies = () => {
           <Link
             to="#"
             className="border px-3 py-1 m-2 rounded-pill text-decoration-none text-secondary font-weight-normal"
-            style={{backgroundColor: '#ebb2b2'}}
+            style={{ backgroundColor: "#ebb2b2" }}
           >
-           Top Movies
+            Top Movies
           </Link>
         </Nav.Item>
       </div>
@@ -58,30 +39,26 @@ const TopMovies = () => {
           spaceBetween={5}
           onReachEnd={() => {
             console.log("reach end");
-            const tmp = slides.unshift();
-            slides.push(tmp);
           }}
           navigation
           pagination
         >
-          {
-          movies.map((movie) => (
+          {movies.map((movie) => (
             <SwiperSlide key={movie.id}>
-         <div className="movieItem">
-         <TopMoviesCard
-            id={movie.id}
-            image={movie.image}
-            title={movie.title}
-            rating={movie.rating}
-            icon={movie.icon}
-           pG={movie.pG}
-           category={movie.category}
-            price={movie.price}
-          />
-         </div>
-      </SwiperSlide>
-          ))
-          }
+              <div className="movieItem">
+                <TopMoviesCard
+                  id={movie.id}
+                  image={movie.image}
+                  title={movie.title}
+                  rating={movie.rating}
+                  icon={movie.icon}
+                  pG={movie.pG}
+                  category={movie.category}
+                  price={movie.price}
+                />
+              </div>
+            </SwiperSlide>
+          ))}
         </Swiper>
       </div>
     </div>
