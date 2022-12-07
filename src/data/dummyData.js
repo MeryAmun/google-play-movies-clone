@@ -1,5 +1,5 @@
 import { ImStarFull } from 'react-icons/im';
-import { acts, alone, avatar, before, blackAdam, carol, christmas, coco, dirt, elf, engaged, eternal, evil, fat, frozen, gia, good, grinch, harbinger, hard, high, holidays, jingle, jurassic, kiss, knives, lampoon,  lies,  male,  maze,  mom,  narnia, night, nope, polar, revenant, savage, school, smile, stan, story, terrify, ticket, top, train, triangle, woman } from '../assets';
+import { acts, alone, avatar, before, blackAdam, carol, christmas, coco, dirt, elf, engaged, eternal, evil, fall, fat, frozen, gia, good, grinch, harbinger, hard, high, holidays, jingle, john, john3, jurassic, kiss, knives, lampoon,  lies,  male,  massive,  maze,  mom,  narnia, night, nope, polar, revenant, savage, school, smile, stan, story, terrify, ticket, top, train, triangle, woman } from '../assets';
 
 // ============================TOP NEW RELEASE MOVIES========================================
 
@@ -366,3 +366,38 @@ export const hboMovies = [
     },
 ]
 // ============================ lIONS GATE   MOVIES========================================
+
+
+export const lionsGateMovies = [
+    {
+        id:1,number:5, title:"Knives Out",image:knives, rating:'4.4',icon:<ImStarFull/>, price: '$3.99'
+    },
+    {
+        id:2, title:"Fall", image:fall, rating:'4.3',icon:<ImStarFull/>, price:'$5.99'
+    },
+    {
+        id:3, title:"John Wick", image:john, rating:'4.8',icon:<ImStarFull/>, price:'$3.99'
+    },
+    {
+        id:4, title:"The Unbelievable Weight Of Massive Talent", image:massive, rating:'4.2',icon:<ImStarFull/>, price:'$5.99'
+    },
+    {
+        id:5, title:"John Wick 3", image:john3, rating:'4.7',icon:<ImStarFull/>, price:'$3.99'
+    },
+    {
+        id:6, title:"John Wick 2", image:acts, rating:'4.7',icon:<ImStarFull/>, price:'$3.99'
+    },
+    {
+        id:7, title:"John Wick", image:john, rating:'4.8',icon:<ImStarFull/>, price:'$3.99'
+    },
+    {
+        id:8,number:5, title:"Knives Out",image:knives, rating:'4.4',icon:<ImStarFull/>, price: '$3.99'
+    },
+    {
+        id:9, title:"Disappearing Acts", image:acts, rating:'4.9',icon:<ImStarFull/>, price:'$2.99'
+    },
+    
+    {
+        id:10, title:"John Wick 3", image:john3, rating:'4.7',icon:<ImStarFull/>, price:'$3.99'
+    },
+]

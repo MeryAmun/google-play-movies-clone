@@ -8,11 +8,11 @@ import SwiperCore, {
   Virtual,
 } from "swiper/core";
 import "swiper/swiper-bundle.css";
-import {  twentiethCenturyMovies } from "../../data/dummyData";
+import {  lionsGateMovies  } from "../../data/dummyData";
 SwiperCore.use([Navigation, Pagination, Autoplay, Virtual]);
 
 const LionsGateMovies = () => {
-  const [movies] = useState(twentiethCenturyMovies);
+  const [movies] = useState(lionsGateMovies);
 
   return (
     // ================HERE, WE ARE IMPORTING THE MOVIES FROM DUMMY DATA FILE INSIDE THE DATA FOLDER, THEN WE PARSE IT INTO THE MOVIE CARD INSIDE THE CARDS FOLDER
