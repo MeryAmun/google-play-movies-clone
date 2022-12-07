@@ -1,5 +1,5 @@
 import React from 'react';
-import { DealsOnMoviePurchases, MostPopularMovies, NewToRent, OffersOnRentals, TopCharts, TopNewReleases } from '../components';
+import { DealsOnMoviePurchases, MostPopularMovies, NewToRent, OffersOnRental, TopMovies, TopNewReleases } from '../components';
 
 
 
@@ -11,9 +11,9 @@ const Movies = () => {
     <div>
   <TopNewReleases/>
   <DealsOnMoviePurchases/>
-  <TopCharts/>
+  <TopMovies/>
   <MostPopularMovies/>
-  <OffersOnRentals/>
+  <OffersOnRental/>
   <NewToRent/>
     </div>
   )

@@ -19,7 +19,7 @@ const DealsOnMoviePurchases = () => {
   for (let i = 0; i < movies.length; i++) {
     slides.push(
       <SwiperSlide key={movies[i].id}>
-        <div className="movieItem">
+        <div className="movieItem mx-1">
           <MoviesCard
             id={movies[i].id}
             image={movies[i].image}

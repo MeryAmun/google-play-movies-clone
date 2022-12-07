@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Nav } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import { MoviesCard, TopMoviesCard } from "../cards";
+import { TopMoviesCard } from "../cards";
 import { topMoviesData } from "../data/dummyData";
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, {
@@ -21,7 +21,7 @@ const TopMovies = () => {
   for (let i = 0; i < movies.length; i++) {
     slides.push(
       <SwiperSlide key={movies[i].id}>
-        <div className="movieItem">
+        <div className="w-100">
           <TopMoviesCard
             id={movies[i].id}
             image={movies[i].image}
@@ -39,22 +39,24 @@ const TopMovies = () => {
 
   return (
     // ================HERE, WE ARE IMPORTING THE MOVIES FROM DUMMY DATA FILE INSIDE THE DATA FOLDER, THEN WE PARSE IT INTO THE MOVIE CARD INSIDE THE CARDS FOLDER
-    <div className="w-100 d-flex flex-column justify-content-start m-4">
-      <div className=" d-flex flex-column justify-content-start">
+    <div className="w-100 d-flex flex-column justify-content-start m-4 topContainer ">
+      <div className=" d-flex flex-column justify-content-start m-3">
+        <h2 className="text-dark font-weight-bold">Top Charts</h2>
         <Nav.Item>
           <Link
             to="#"
             className="border px-3 py-1 m-2 rounded-pill text-decoration-none text-secondary font-weight-normal"
+            style={{backgroundColor: '#ebb2b2'}}
           >
-            Movies
+           Top Movies
           </Link>
         </Nav.Item>
       </div>
-      <div className="moviesContainer d-flex align-items-center overflow-hidden">
+      <div className="d-flex align-items-center overflow-hidden  border h-100">
         <Swiper
           id="swiper"
           virtual
-          slidesPerView={6}
+          slidesPerView={3}
           spaceBetween={5}
           onReachEnd={() => {
             console.log("reach end");

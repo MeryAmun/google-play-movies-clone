@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { MoviesCard } from "../cards";
-import { topNewReleasesData } from "../data/dummyData";
+import { offersOnRentalsData } from "../data/dummyData";
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, {
   Navigation,
@@ -11,8 +11,8 @@ import SwiperCore, {
 import "swiper/swiper-bundle.css";
 SwiperCore.use([Navigation, Pagination, Autoplay, Virtual]);
 
-const TopNewReleases = () => {
-  const [movies] = useState(topNewReleasesData);
+const OffersOnRental = () => {
+  const [movies] = useState(offersOnRentalsData);
 
   const slides = [];
 
@@ -38,14 +38,9 @@ const TopNewReleases = () => {
     // ================HERE, WE ARE IMPORTING THE MOVIES FROM DUMMY DATA FILE INSIDE THE DATA FOLDER, THEN WE PARSE IT INTO THE MOVIE CARD INSIDE THE CARDS FOLDER
     <div className="w-100 d-flex flex-column justify-content-start m-4">
       <div className=" d-flex flex-column justify-content-start">
-        <h2 className="text-dark font-weight-bold">
-          Top new movie releases to rent or buy
-        </h2>
-        <p className="text-secondary font-weight-normal">
-          From the big screen to your screen
-        </p>
+        <h2 className="text-dark font-weight-bold">Offers on movie rentals</h2>
       </div>
-      <div className=" d-flex align-items-center flex-wrap">
+      <div className="d-flex align-items-center overflow-hidden">
         <Swiper
           id="swiper"
           virtual
@@ -66,4 +61,4 @@ const TopNewReleases = () => {
   );
 };
 
-export default TopNewReleases;
+export default OffersOnRental;

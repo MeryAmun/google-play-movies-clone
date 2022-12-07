@@ -20,5 +20,11 @@ export { default as nope}  from './images/nope.jpg'
 export { default as knives}  from './images/knives.jpg'
 export { default as jurassic}  from './images/jurassic.jpg'
 export { default as terrify}  from './images/terrify.jpg'
+export { default as high}  from './images/high.jpg'
+export { default as evil}  from './images/evil.jpg'
+export { default as school}  from './images/school.jpg'
+export { default as kiss}  from './images/kiss.jpg'
+export { default as good}  from './images/good.jpg'
+export { default as engaged}  from './images/engaged.jpg'
 
 

@@ -1,5 +1,5 @@
 import { ImStarFull } from 'react-icons/im';
-import { blackAdam, christmas, elf, eternal, grinch, harbinger, holidays, jurassic, knives, lampoon, nope, polar, savage, smile, story, terrify, ticket, top, train, woman } from '../assets';
+import { blackAdam, christmas, elf, engaged, eternal, evil, good, grinch, harbinger, high, holidays, jurassic, kiss, knives, lampoon, night, nope, polar, savage, school, smile, story, terrify, ticket, top, train, woman } from '../assets';
 
 export const topNewReleasesData = [
     {
@@ -51,19 +51,19 @@ export const purchaseDealsData = [
         id:5, title:'A Christmas Story (1985)',image:story, oldPrice:'$14.99', price: '$7.99'
     },
     {
-        id:6, title:'The Night Before',image:harbinger, rating:'4.0',icon:<ImStarFull/>, oldPrice:'$14.99', price: '$7.99'
+        id:6, title:'The Night Before',image:night, rating:'4.0',icon:<ImStarFull/>, oldPrice:'$14.99', price: '$7.99'
     },
     {
-        id:7, title:'Elf',image:harbinger, rating:'4.4',icon:<ImStarFull/>, oldPrice:'$14.99', price: '$7.99'
+        id:7, title:'Elf',image:elf, rating:'4.4',icon:<ImStarFull/>, oldPrice:'$14.99', price: '$7.99'
     },
     {
-        id:8, title:'Elf',image:harbinger, rating:'4.4',icon:<ImStarFull/>, oldPrice:'$14.99', price: '$7.99'
+        id:8, title:'Elf',image:elf, rating:'4.4',icon:<ImStarFull/>, oldPrice:'$14.99', price: '$7.99'
     },
     {
-        id:9, title:'Elf',image:harbinger, rating:'4.4',icon:<ImStarFull/>, oldPrice:'$14.99', price: '$7.99'
+        id:9, title:'Elf',image:elf, rating:'4.4',icon:<ImStarFull/>, oldPrice:'$14.99', price: '$7.99'
     },
     {
-        id:10, title:'Elf',image:harbinger, rating:'4.4',icon:<ImStarFull/>, oldPrice:'$14.99', price: '$7.99'
+        id:10, title:'Elf',image:elf, rating:'4.4',icon:<ImStarFull/>, oldPrice:'$14.99', price: '$7.99'
     },
     
    
@@ -160,3 +160,42 @@ export const topMoviesData = [
     },
 ]
 
+
+export const offersOnRentalsData = [
+  
+    {
+        id:1, title:'Highlander',image:high, rating:'4.6',icon:<ImStarFull/>, oldPrice:'$3.99', price: '$0.99'
+    },
+    {
+        id:2, title:"Accidentally Engaged",image:engaged, rating:'3.2',icon:<ImStarFull/>, oldPrice:'$1.99', price: '$0.99'
+    },
+    {
+        id:3, title:'Good Manners',image:good,  oldPrice:'$14.99', price: '$7.99'
+    },
+   
+    {
+        id:4, title:'On The Way To School',rating:'4.7',image:school, oldPrice:'$2.99', price: '$7.99'
+    },
+    {
+        id:5, title:'Deliver Us From Evil',image:evil, rating:'4.2',icon:<ImStarFull/>, oldPrice:'$3.99', price: '$0.99'
+    },
+    {
+        id:6, title:'Merry Kissmas',image:kiss, rating:'4.5',icon:<ImStarFull/>, oldPrice:'$1.99', price: '$0.99'
+    },
+    {
+        id:7, title:'Deliver Us From Evil',image:evil, rating:'4.2',icon:<ImStarFull/>, oldPrice:'$3.99', price: '$0.99'
+    },
+    {
+        id:8, title:'Merry Kissmas',image:kiss, rating:'4.5',icon:<ImStarFull/>, oldPrice:'$1.99', price: '$0.99'
+    },
+    
+    {
+        id:9, title:'Merry Kissmas',image:kiss, rating:'4.5',icon:<ImStarFull/>, oldPrice:'$1.99', price: '$0.99'
+    },
+    
+    {
+        id:10, title:'On The Way To School',rating:'4.7',image:school, oldPrice:'$2.99', price: '$7.99'
+    },
+   
+
+]
