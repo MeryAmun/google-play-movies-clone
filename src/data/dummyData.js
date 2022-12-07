@@ -33,7 +33,7 @@ export const topNewReleasesData = [
         id:10, title:'Black Adam',image:blackAdam, rating:'4.3',icon:<ImStarFull/>, price: '$19.99'
     },
 ]
-export const purchaseDeals = [
+export const purchaseDealsData = [
   
     {
         id:1, title:'Elf',image:elf, rating:'4.4',icon:<ImStarFull/>, oldPrice:'$14.99', price: '$7.99'
@@ -70,7 +70,7 @@ export const purchaseDeals = [
 
 ]
 
-export const mostPopularMovies = [
+export const mostPopularMoviesData = [
     {
         id:1, title:'Top Gun: Maverick',image:top, rating:'4.8',icon:<ImStarFull/>, price: '$4.99'
     },

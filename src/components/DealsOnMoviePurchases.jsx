@@ -1,6 +1,6 @@
 import React, { useState, useRef } from 'react'
 import { MoviesCard } from '../cards';
-import { topNewReleasesData } from '../data/dummyData';
+import { purchaseDealsData } from '../data/dummyData';
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, {
   Navigation,
@@ -12,7 +12,7 @@ import "swiper/swiper-bundle.css";
 SwiperCore.use([Navigation, Pagination, Autoplay, Virtual]);
 
 const DealsOnMoviePurchases = () => {
-  const [movies,] = useState(topNewReleasesData);
+  const [movies,] = useState(purchaseDealsData);
 
   const slides = [];
 
