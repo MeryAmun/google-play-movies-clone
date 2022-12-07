@@ -1,4 +1,4 @@
-import React, { useState, useRef } from "react";
+import React, { useState } from "react";
 import { MoviesCard } from "../cards";
 import { purchaseDealsData } from "../data/dummyData";
 import { Swiper, SwiperSlide } from "swiper/react";
