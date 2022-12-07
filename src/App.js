@@ -1,14 +1,17 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom'
 import { NavbarComponent } from './components';
+import { MoviesScreen } from './pages'
 import './App.css'
 
 const App = () => {
   return (
-    <div>
+    <>
 <NavbarComponent/>
-
-    </div>
+<Routes>
+  <Route path='/' element={<MoviesScreen/>}/>
+  </Routes>
+    </>
   )
 }
 

@@ -98,6 +98,41 @@ body {
   cursor: pointer;
 
 }
+.arrowLeft{
+  font-size: 1rem;
+  width: 50px;
+  height: 50px;
+  color:grey;
+  cursor: pointer;
+  border-color: #fff;
+  position: absolute;
+  top:350px;
+  background: #fff;
+  border-radius: 50%;
+  margin-left: 1rem;
+}
+.arrowRight{
+  font-size: 1rem;
+  width: 50px;
+  height: 50px;
+  color:grey;
+  cursor: pointer;
+  border-color: #fff;
+  position: absolute;
+  top:350px;
+  background: #fff;
+  border-radius: 50%;
+  margin-right: 4.5rem;
+  right: 0;
+}
+
+.arrow-container{
+  display: none;
+}
+.activeTab{
+  background: #ebb2b2;
+
+}
 
 .avatar{
     background-color: #7952b3;
@@ -106,4 +141,69 @@ body {
   border-radius: 50%;
 }
 
+/* ===================STYLING CONTAINER FOR SLIDER====================== */
+.moviesContainer{
 
+}
+
+.movieItem{
+  flex: 0 0 8.7%;
+  text-align: center;
+  transition: transform 300ms ease 100ms;
+}
+
+.moviesContainer:hover .movieItem {
+  transform: translateX(-25%);
+}
+.movieItem:hover ~ .movieItem {
+  transform: translateX(25%);
+}
+.movieItem:hover {
+  /* transform: scale(1.5) !important; */
+  background: rgba(211, 205, 205,0.3);
+}
+.swiper-pagination-bullets {
+  display: none;
+}
+
+.swiper-button-next {
+  font-size: 1rem;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  border-color: #fff;
+  position: absolute;
+  top:100px;
+  background-image: url(./assets//images/right-arrow.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* background: #fff; */
+  border-radius: 50%;
+  margin-left: 1rem;
+}
+.swiper-button-next::after{
+  display: none;
+}
+
+.swiper-button-prev {
+  font-size: 1rem;
+  width: 50px;
+  height: 50px;
+  color:wheat;
+  cursor: pointer;
+  border-color: #fff;
+  position: absolute;
+  top:100px;
+  background-image: url(./assets//images/left-arrow.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* background: #fff; */
+  border-radius: 50%;
+  margin-left: 1rem;
+}
+
+.swiper-button-prev::after{
+  display: none;
+}

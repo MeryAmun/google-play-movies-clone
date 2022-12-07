@@ -15,7 +15,7 @@ const SearchBar = ({ show, setShow }) => {
             <div className="search-container border border-light border-rounded">
             <input type="text" placeholder="Search for apps and games" className="search-field"/>
             <span className="small-box d-flex justify-content-start align-items-center">
-              <IoIosSearch className="search-bar"/>
+              <IoIosSearch className="search-bar" onClick={ () => setShow((prev) => ! prev)}/>
             </span>
           </div> : null
         }

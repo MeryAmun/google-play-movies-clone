@@ -15,22 +15,22 @@ export const topNewReleasesData = [
         id:4, title:'The Harbinger',image:harbinger, rating:'4.0',icon:<ImStarFull/>, oldPrice:'$6.99', price: '$5.99'
     },
     {
-        id:1, title:'The Woman King',image:woman, rating:'4.1',icon:<ImStarFull/>, price: '$19.99'
+        id:5, title:'The Woman King',image:woman, rating:'4.1',icon:<ImStarFull/>, price: '$19.99'
     },
     {
-        id:1, title:'The Eternal Daughter',image:eternal, rating:'5.0',icon:<ImStarFull/>, price: '$12.99'
+        id:6, title:'The Eternal Daughter',image:eternal, rating:'5.0',icon:<ImStarFull/>, price: '$12.99'
     },
     {
-        id:1, title:'Black Adam',image:blackAdam, rating:'4.3',icon:<ImStarFull/>, price: '$19.99'
+        id:7, title:'Black Adam',image:blackAdam, rating:'4.3',icon:<ImStarFull/>, price: '$19.99'
     },
     {
-        id:1, title:'Black Adam',image:blackAdam, rating:'4.3',icon:<ImStarFull/>, price: '$19.99'
+        id:8, title:'Black Adam',image:blackAdam, rating:'4.3',icon:<ImStarFull/>, price: '$19.99'
     },
     {
-        id:1, title:'Black Adam',image:blackAdam, rating:'4.3',icon:<ImStarFull/>, price: '$19.99'
+        id:9, title:'Black Adam',image:blackAdam, rating:'4.3',icon:<ImStarFull/>, price: '$19.99'
     },
     {
-        id:1, title:'Black Adam',image:blackAdam, rating:'4.3',icon:<ImStarFull/>, price: '$19.99'
+        id:10, title:'Black Adam',image:blackAdam, rating:'4.3',icon:<ImStarFull/>, price: '$19.99'
     },
 ]
 
