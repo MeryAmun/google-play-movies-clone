@@ -1,5 +1,5 @@
 import { ImStarFull } from 'react-icons/im';
-import { alone, avatar, before, blackAdam, carol, christmas, coco, dirt, elf, engaged, eternal, evil, frozen, good, grinch, harbinger, hard, high, holidays, jingle, jurassic, kiss, knives, lampoon,  male,  maze,  narnia, night, nope, polar, revenant, savage, school, smile, story, terrify, ticket, top, train, triangle, woman } from '../assets';
+import { acts, alone, avatar, before, blackAdam, carol, christmas, coco, dirt, elf, engaged, eternal, evil, fat, frozen, gia, good, grinch, harbinger, hard, high, holidays, jingle, jurassic, kiss, knives, lampoon,  lies,  male,  maze,  mom,  narnia, night, nope, polar, revenant, savage, school, smile, stan, story, terrify, ticket, top, train, triangle, woman } from '../assets';
 
 // ============================TOP NEW RELEASE MOVIES========================================
 
@@ -332,4 +332,37 @@ export const twentiethCenturyMovies = [
     },
 ]
 // ============================ HBO   MOVIES========================================
+export const hboMovies = [
+    {
+        id:1, title:"Big Stan", image:stan, rating:'4.6',icon:<ImStarFull/>, price:'$9.99'
+    },
+    {
+        id:2, title:"Don't Tell Mom The Babysitter is Dead", image:mom, rating:'4.7',icon:<ImStarFull/>, price:'$2.99'
+    },
+    {
+        id:3, title:"My Big Fat Greek wedding", image:fat, rating:'4.6',icon:<ImStarFull/>, price:'$2.99'
+    },
+    {
+        id:4, title:"The Wizard Of Lies", image:lies, rating:'4.4',icon:<ImStarFull/>, price:'$2.99'
+    },
+    {
+        id:5, title:"GIA", image:gia, rating:'4.7',icon:<ImStarFull/>, price:'$2.99'
+    },
+    {
+        id:6, title:"Disappearing Acts", image:acts, rating:'4.9',icon:<ImStarFull/>, price:'$2.99'
+    },
+    {
+        id:7, title:"GIA", image:gia, rating:'4.7',icon:<ImStarFull/>, price:'$2.99'
+    },
+    {
+        id:8, title:"The Wizard Of Lies", image:lies, rating:'4.4',icon:<ImStarFull/>, price:'$2.99'
+    },
+    {
+        id:9, title:"Disappearing Acts", image:acts, rating:'4.9',icon:<ImStarFull/>, price:'$2.99'
+    },
+    
+    {
+        id:10, title:"Die Hard", image:hard, rating:'4.7',icon:<ImStarFull/>, price:'$3.99'
+    },
+]
 // ============================ lIONS GATE   MOVIES========================================

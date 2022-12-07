@@ -8,7 +8,7 @@ import SwiperCore, {
   Virtual,
 } from "swiper/core";
 import "swiper/swiper-bundle.css";
-import {  twentiethCenturyMovies } from "../../data/dummyData";
+import { twentiethCenturyMovies } from "../../data/dummyData";
 SwiperCore.use([Navigation, Pagination, Autoplay, Virtual]);
 
 const TwentiethCenturyMovies = () => {
@@ -18,7 +18,9 @@ const TwentiethCenturyMovies = () => {
     // ================HERE, WE ARE IMPORTING THE MOVIES FROM DUMMY DATA FILE INSIDE THE DATA FOLDER, THEN WE PARSE IT INTO THE MOVIE CARD INSIDE THE CARDS FOLDER
     <div className="w-100 d-flex flex-column justify-content-start m-4">
       <div className=" d-flex flex-column justify-content-start">
-        <h2 className="text-dark font-weight-bold">20th Century Studio Movies</h2>
+        <h2 className="text-dark font-weight-bold">
+          20th Century Studio Movies
+        </h2>
       </div>
       <div className="d-flex align-items-center overflow-hidden">
         <Swiper

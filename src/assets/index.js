@@ -41,6 +41,18 @@ export { default as maze}  from './images/maze.jpg'
 export { default as alone}  from './images/alone.jpg'
 export { default as jingle}  from './images/jingle.jpg'
 export { default as revenant}  from './images/revenant.jpg'
+export { default as stan}  from './images/stan.jpg'
+export { default as lies}  from './images/lies.jpg'
+export { default as gia}  from './images/gia.jpg'
+export { default as mom}  from './images/mom.jpg'
+export { default as massive}  from './images/massive.jpg'
+export { default as john}  from './images/john.jpg'
+export { default as john2}  from './images/john2.jpg'
+export { default as john3}  from './images/john3.jpg'
+export { default as fat}  from './images/fat.jpg'
+export { default as fall}  from './images/fall.jpg'
+export { default as acts}  from './images/acts.jpg'
+
 
 
 
