@@ -19,10 +19,10 @@ const TwentiethCenturyMovies = () => {
     <div className="w-100 d-flex flex-column justify-content-start m-4">
       <div className=" d-flex flex-column justify-content-start">
         <h2 className="text-dark font-weight-bold">
-          20th Century Studio Movies
+          20th Century Studios Movies
         </h2>
       </div>
-      <div className="d-flex align-items-center overflow-hidden">
+      <div className="moviesContainer  d-flex align-items-center overflow-hidden">
         <Swiper
           id="swiper"
           virtual

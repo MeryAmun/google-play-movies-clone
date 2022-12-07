@@ -184,14 +184,19 @@ body {
   cursor: pointer;
   border-color: #fff;
   position: absolute;
-  top:100px;
+  top:120px;
   background-image: url(./assets//images/right-arrow.jpg);
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
-  /* background: #fff; */
   border-radius: 50%;
   margin-left: 1rem;
+  display: none;
+}
+
+.moviesContainer:hover .swiper-button-next {
+  /* transform: scale(1.5) !important; */
+  display: block;
 }
 .swiper-button-next::after{
   display: none;
@@ -207,15 +212,20 @@ body {
   position: absolute;
   top:120px;
   border-radius: 50%;
-  background-image: url(./assets//images/left-arrow.png);
+  background-image: url(./assets//images/left-arrow.jpg);
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
   /* background: #fff; */
   border-radius: 50%;
   margin-left: 1rem;
+  display: none;
 }
 
+.moviesContainer:hover .swiper-button-prev {
+  /* transform: scale(1.5) !important; */
+  display: block;
+}
 .swiper-button-prev::after{
   display: none;
 }

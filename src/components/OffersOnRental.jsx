@@ -40,7 +40,7 @@ const OffersOnRental = () => {
       <div className=" d-flex flex-column justify-content-start">
         <h2 className="text-dark font-weight-bold">Offers on movie rentals</h2>
       </div>
-      <div className="d-flex align-items-center overflow-hidden">
+      <div className="moviesContainer  d-flex align-items-center overflow-hidden">
         <Swiper
           id="swiper"
           virtual

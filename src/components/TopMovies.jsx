@@ -31,7 +31,7 @@ const TopMovies = () => {
           </Link>
         </Nav.Item>
       </div>
-      <div className="d-block align-items-center overflow-hidden  border h-100">
+      <div className="moviesContainer  d-block align-items-center overflow-hidden  border h-100">
         <Swiper
           id="swiper"
           virtual

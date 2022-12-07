@@ -25,7 +25,7 @@ const TopNewReleases = () => {
           From the big screen to your screen
         </p>
       </div>
-      <div className=" d-flex align-items-center flex-wrap">
+      <div className="moviesContainer d-flex align-items-center flex-wrap">
         <Swiper
           id="swiper"
           virtual
